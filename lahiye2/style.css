@@ -1,0 +1,138 @@
+.todo-container{
+    width: 336px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 132px;
+    margin-left: 408px;
+   
+}
+.orange-section{
+    background-color:#FFDC40;
+    height:28px ;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    
+     margin-left: 97px;
+     font-size: 26px;
+     line-height: 30.47px;
+     font-weight: 900;
+}
+button{
+    background-color: rgb(253, 253, 253);
+    border: none;
+}
+#sort-button{
+    background-color: rgb(253, 253, 253);
+    border: none;
+    margin-top: 5px;
+    margin-left: 281px;
+     
+}
+.imageContainer{
+   width: 25px;
+   height: 15px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px;
+    
+}
+.todo-section .uldiv{
+    margin-left: 28px;
+    margin-top: 12px;
+    width: 266px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: block;  
+}
+ 
+input[type="text"] {
+     
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: block;  
+    margin-left: 28px;
+    margin-top: 12px;
+}
+ 
+#todo-input {
+    width: 266px; 
+    padding: 10px;  
+    box-sizing: border-box;  
+    padding-right: 50px;  
+    
+    
+}
+.uldiv {
+    width: 266px; 
+    padding: 10px;  
+    box-sizing: border-box;  
+}
+
+button#add-button {
+     display: flex;  
+     flex-direction: row;
+    margin-top: 18px;  
+    margin-bottom: 19px;
+    margin-left: 92px;
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;  
+    color: #fff;
+    border: none;
+    border-radius: 71px;
+    cursor: pointer;
+    text-align: center; 
+    line-height: 16.41px; 
+     
+}
+button#add-button p{
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 11px;
+}
+
+.plus {
+    background-color: #9953F1;
+    border-radius: 71px;
+    width: 41px;
+    height: 41px;
+    font-size: 20px;  
+    position: relative;  
+    left: -5px;  
+    text-align: center;  
+    line-height: 42px;  
+}
+ 
+ 
+#todo-list li {
+    padding-right: 30px; 
+    position: relative;  
+}
+.delete-button {
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 10px;  
+    transform: translateY(-50%);
+    color: #C4C4C4;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.delete-button:hover, .delete-button.clicked {
+    background-color: #833AE0;  
+}
+ 
+ 
